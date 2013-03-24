@@ -16,14 +16,27 @@
 		64BA967016FA32B000D60969 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BA966F16FA32B000D60969 /* Default.png */; };
 		64BA967216FA32B000D60969 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BA967116FA32B000D60969 /* Default@2x.png */; };
 		64BA967416FA32B000D60969 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BA967316FA32B000D60969 /* Default-568h@2x.png */; };
-		64BA967716FA32B000D60969 /* KZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BA967616FA32B000D60969 /* KZViewController.m */; };
-		64BA967A16FA32B000D60969 /* KZViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64BA967816FA32B000D60969 /* KZViewController_iPhone.xib */; };
-		64BA967D16FA32B000D60969 /* KZViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64BA967B16FA32B000D60969 /* KZViewController_iPad.xib */; };
+		64BA967716FA32B000D60969 /* KZdataLoadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BA967616FA32B000D60969 /* KZdataLoadViewController.m */; };
+		64BA967A16FA32B000D60969 /* KZdataLoadViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64BA967816FA32B000D60969 /* KZdataLoadViewController_iPhone.xib */; };
+		64BA967D16FA32B000D60969 /* KZdataLoadViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64BA967B16FA32B000D60969 /* KZdataLoadViewController_iPad.xib */; };
 		64BA968516FA32B000D60969 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64BA968416FA32B000D60969 /* SenTestingKit.framework */; };
 		64BA968616FA32B000D60969 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64BA965D16FA32B000D60969 /* UIKit.framework */; };
 		64BA968716FA32B000D60969 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64BA965F16FA32B000D60969 /* Foundation.framework */; };
 		64BA968F16FA32B000D60969 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64BA968D16FA32B000D60969 /* InfoPlist.strings */; };
 		64BA969216FA32B000D60969 /* GradesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BA969116FA32B000D60969 /* GradesTests.m */; };
+		64BA96A116FA3BF800D60969 /* KZStudentGradeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BA969F16FA3BF800D60969 /* KZStudentGradeTableViewController.m */; };
+		64BA96A216FA3BF800D60969 /* KZStudentGradeTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64BA96A016FA3BF800D60969 /* KZStudentGradeTableViewController.xib */; };
+		64BA96B116FA3F2D00D60969 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BA96A616FA3F2D00D60969 /* NSObject+SBJSON.m */; };
+		64BA96B216FA3F2D00D60969 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BA96A816FA3F2D00D60969 /* NSString+SBJSON.m */; };
+		64BA96B316FA3F2D00D60969 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BA96AA16FA3F2D00D60969 /* SBJSON.m */; };
+		64BA96B416FA3F2D00D60969 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BA96AC16FA3F2D00D60969 /* SBJsonBase.m */; };
+		64BA96B516FA3F2D00D60969 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BA96AE16FA3F2D00D60969 /* SBJsonParser.m */; };
+		64BA96B616FA3F2D00D60969 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BA96B016FA3F2D00D60969 /* SBJsonWriter.m */; };
+		64BA96B916FA461100D60969 /* KZStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BA96B816FA461100D60969 /* KZStudent.m */; };
+		64BA96C016FA7EE400D60969 /* KZStudentInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64BA96BF16FA7EE400D60969 /* KZStudentInfoCell.xib */; };
+		64BA96C316FA7F7100D60969 /* KZStudentInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BA96C216FA7F7100D60969 /* KZStudentInfoCell.m */; };
+		64BA971A16FAAD1A00D60969 /* FetchImageOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BA971816FAAB7B00D60969 /* FetchImageOperation.m */; };
+		64BA972116FAC8B300D60969 /* UINavigationController+allOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BA971C16FAC10A00D60969 /* UINavigationController+allOrientation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,16 +63,41 @@
 		64BA966F16FA32B000D60969 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		64BA967116FA32B000D60969 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		64BA967316FA32B000D60969 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		64BA967516FA32B000D60969 /* KZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KZViewController.h; sourceTree = "<group>"; };
-		64BA967616FA32B000D60969 /* KZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KZViewController.m; sourceTree = "<group>"; };
-		64BA967916FA32B000D60969 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KZViewController_iPhone.xib; sourceTree = "<group>"; };
-		64BA967C16FA32B000D60969 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KZViewController_iPad.xib; sourceTree = "<group>"; };
+		64BA967516FA32B000D60969 /* KZdataLoadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KZdataLoadViewController.h; sourceTree = "<group>"; };
+		64BA967616FA32B000D60969 /* KZdataLoadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KZdataLoadViewController.m; sourceTree = "<group>"; };
+		64BA967916FA32B000D60969 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KZdataLoadViewController_iPhone.xib; sourceTree = "<group>"; };
+		64BA967C16FA32B000D60969 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KZdataLoadViewController_iPad.xib; sourceTree = "<group>"; };
 		64BA968316FA32B000D60969 /* GradesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GradesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64BA968416FA32B000D60969 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		64BA968C16FA32B000D60969 /* GradesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GradesTests-Info.plist"; sourceTree = "<group>"; };
 		64BA968E16FA32B000D60969 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		64BA969016FA32B000D60969 /* GradesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GradesTests.h; sourceTree = "<group>"; };
 		64BA969116FA32B000D60969 /* GradesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GradesTests.m; sourceTree = "<group>"; };
+		64BA969E16FA3BF800D60969 /* KZStudentGradeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZStudentGradeTableViewController.h; sourceTree = "<group>"; };
+		64BA969F16FA3BF800D60969 /* KZStudentGradeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZStudentGradeTableViewController.m; sourceTree = "<group>"; };
+		64BA96A016FA3BF800D60969 /* KZStudentGradeTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KZStudentGradeTableViewController.xib; sourceTree = "<group>"; };
+		64BA96A416FA3F2D00D60969 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		64BA96A516FA3F2D00D60969 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		64BA96A616FA3F2D00D60969 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		64BA96A716FA3F2D00D60969 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		64BA96A816FA3F2D00D60969 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		64BA96A916FA3F2D00D60969 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		64BA96AA16FA3F2D00D60969 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		64BA96AB16FA3F2D00D60969 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		64BA96AC16FA3F2D00D60969 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		64BA96AD16FA3F2D00D60969 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		64BA96AE16FA3F2D00D60969 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		64BA96AF16FA3F2D00D60969 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		64BA96B016FA3F2D00D60969 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		64BA96B716FA461100D60969 /* KZStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KZStudent.h; path = Model/KZStudent.h; sourceTree = "<group>"; };
+		64BA96B816FA461100D60969 /* KZStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KZStudent.m; path = Model/KZStudent.m; sourceTree = "<group>"; };
+		64BA96BF16FA7EE400D60969 /* KZStudentInfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KZStudentInfoCell.xib; sourceTree = "<group>"; };
+		64BA96C116FA7F7100D60969 /* KZStudentInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KZStudentInfoCell.h; path = View/KZStudentInfoCell.h; sourceTree = "<group>"; };
+		64BA96C216FA7F7100D60969 /* KZStudentInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KZStudentInfoCell.m; path = View/KZStudentInfoCell.m; sourceTree = "<group>"; };
+		64BA971716FAAB7B00D60969 /* FetchImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FetchImageOperation.h; sourceTree = "<group>"; };
+		64BA971816FAAB7B00D60969 /* FetchImageOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FetchImageOperation.m; sourceTree = "<group>"; };
+		64BA971B16FAC10A00D60969 /* UINavigationController+allOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+allOrientation.h"; sourceTree = "<group>"; };
+		64BA971C16FAC10A00D60969 /* UINavigationController+allOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+allOrientation.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,12 +157,9 @@
 		64BA966316FA32B000D60969 /* Grades */ = {
 			isa = PBXGroup;
 			children = (
-				64BA966C16FA32B000D60969 /* KZAppDelegate.h */,
-				64BA966D16FA32B000D60969 /* KZAppDelegate.m */,
-				64BA967516FA32B000D60969 /* KZViewController.h */,
-				64BA967616FA32B000D60969 /* KZViewController.m */,
-				64BA967816FA32B000D60969 /* KZViewController_iPhone.xib */,
-				64BA967B16FA32B000D60969 /* KZViewController_iPad.xib */,
+				64BA969B16FA32BC00D60969 /* Model */,
+				64BA969C16FA32C200D60969 /* View */,
+				64BA969D16FA32C800D60969 /* Controller */,
 				64BA966416FA32B000D60969 /* Supporting Files */,
 			);
 			path = Grades;
@@ -133,6 +168,13 @@
 		64BA966416FA32B000D60969 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				64BA966C16FA32B000D60969 /* KZAppDelegate.h */,
+				64BA966D16FA32B000D60969 /* KZAppDelegate.m */,
+				64BA971B16FAC10A00D60969 /* UINavigationController+allOrientation.h */,
+				64BA971C16FAC10A00D60969 /* UINavigationController+allOrientation.m */,
+				64BA971716FAAB7B00D60969 /* FetchImageOperation.h */,
+				64BA971816FAAB7B00D60969 /* FetchImageOperation.m */,
+				64BA96A316FA3F2D00D60969 /* JSON */,
 				64BA966516FA32B000D60969 /* Grades-Info.plist */,
 				64BA966616FA32B000D60969 /* InfoPlist.strings */,
 				64BA966916FA32B000D60969 /* main.m */,
@@ -161,6 +203,59 @@
 				64BA968D16FA32B000D60969 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		64BA969B16FA32BC00D60969 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				64BA96B716FA461100D60969 /* KZStudent.h */,
+				64BA96B816FA461100D60969 /* KZStudent.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		64BA969C16FA32C200D60969 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				64BA967816FA32B000D60969 /* KZdataLoadViewController_iPhone.xib */,
+				64BA967B16FA32B000D60969 /* KZdataLoadViewController_iPad.xib */,
+				64BA96A016FA3BF800D60969 /* KZStudentGradeTableViewController.xib */,
+				64BA96BF16FA7EE400D60969 /* KZStudentInfoCell.xib */,
+				64BA96C116FA7F7100D60969 /* KZStudentInfoCell.h */,
+				64BA96C216FA7F7100D60969 /* KZStudentInfoCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		64BA969D16FA32C800D60969 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				64BA967516FA32B000D60969 /* KZdataLoadViewController.h */,
+				64BA967616FA32B000D60969 /* KZdataLoadViewController.m */,
+				64BA969E16FA3BF800D60969 /* KZStudentGradeTableViewController.h */,
+				64BA969F16FA3BF800D60969 /* KZStudentGradeTableViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		64BA96A316FA3F2D00D60969 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				64BA96A416FA3F2D00D60969 /* JSON.h */,
+				64BA96A516FA3F2D00D60969 /* NSObject+SBJSON.h */,
+				64BA96A616FA3F2D00D60969 /* NSObject+SBJSON.m */,
+				64BA96A716FA3F2D00D60969 /* NSString+SBJSON.h */,
+				64BA96A816FA3F2D00D60969 /* NSString+SBJSON.m */,
+				64BA96A916FA3F2D00D60969 /* SBJSON.h */,
+				64BA96AA16FA3F2D00D60969 /* SBJSON.m */,
+				64BA96AB16FA3F2D00D60969 /* SBJsonBase.h */,
+				64BA96AC16FA3F2D00D60969 /* SBJsonBase.m */,
+				64BA96AD16FA3F2D00D60969 /* SBJsonParser.h */,
+				64BA96AE16FA3F2D00D60969 /* SBJsonParser.m */,
+				64BA96AF16FA3F2D00D60969 /* SBJsonWriter.h */,
+				64BA96B016FA3F2D00D60969 /* SBJsonWriter.m */,
+			);
+			path = JSON;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,8 +334,10 @@
 				64BA967016FA32B000D60969 /* Default.png in Resources */,
 				64BA967216FA32B000D60969 /* Default@2x.png in Resources */,
 				64BA967416FA32B000D60969 /* Default-568h@2x.png in Resources */,
-				64BA967A16FA32B000D60969 /* KZViewController_iPhone.xib in Resources */,
-				64BA967D16FA32B000D60969 /* KZViewController_iPad.xib in Resources */,
+				64BA967A16FA32B000D60969 /* KZdataLoadViewController_iPhone.xib in Resources */,
+				64BA967D16FA32B000D60969 /* KZdataLoadViewController_iPad.xib in Resources */,
+				64BA96A216FA3BF800D60969 /* KZStudentGradeTableViewController.xib in Resources */,
+				64BA96C016FA7EE400D60969 /* KZStudentInfoCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +374,18 @@
 			files = (
 				64BA966A16FA32B000D60969 /* main.m in Sources */,
 				64BA966E16FA32B000D60969 /* KZAppDelegate.m in Sources */,
-				64BA967716FA32B000D60969 /* KZViewController.m in Sources */,
+				64BA967716FA32B000D60969 /* KZdataLoadViewController.m in Sources */,
+				64BA96A116FA3BF800D60969 /* KZStudentGradeTableViewController.m in Sources */,
+				64BA96B116FA3F2D00D60969 /* NSObject+SBJSON.m in Sources */,
+				64BA96B216FA3F2D00D60969 /* NSString+SBJSON.m in Sources */,
+				64BA96B316FA3F2D00D60969 /* SBJSON.m in Sources */,
+				64BA96B416FA3F2D00D60969 /* SBJsonBase.m in Sources */,
+				64BA96B516FA3F2D00D60969 /* SBJsonParser.m in Sources */,
+				64BA96B616FA3F2D00D60969 /* SBJsonWriter.m in Sources */,
+				64BA96B916FA461100D60969 /* KZStudent.m in Sources */,
+				64BA96C316FA7F7100D60969 /* KZStudentInfoCell.m in Sources */,
+				64BA971A16FAAD1A00D60969 /* FetchImageOperation.m in Sources */,
+				64BA972116FAC8B300D60969 /* UINavigationController+allOrientation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,20 +416,20 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		64BA967816FA32B000D60969 /* KZViewController_iPhone.xib */ = {
+		64BA967816FA32B000D60969 /* KZdataLoadViewController_iPhone.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				64BA967916FA32B000D60969 /* en */,
 			);
-			name = KZViewController_iPhone.xib;
+			name = KZdataLoadViewController_iPhone.xib;
 			sourceTree = "<group>";
 		};
-		64BA967B16FA32B000D60969 /* KZViewController_iPad.xib */ = {
+		64BA967B16FA32B000D60969 /* KZdataLoadViewController_iPad.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				64BA967C16FA32B000D60969 /* en */,
 			);
-			name = KZViewController_iPad.xib;
+			name = KZdataLoadViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 		64BA968D16FA32B000D60969 /* InfoPlist.strings */ = {
@@ -466,6 +574,7 @@
 				64BA969716FA32B000D60969 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		64BA969816FA32B000D60969 /* Build configuration list for PBXNativeTarget "GradesTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +583,7 @@
 				64BA969A16FA32B000D60969 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

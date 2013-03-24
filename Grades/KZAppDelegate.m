@@ -7,8 +7,7 @@
 //
 
 #import "KZAppDelegate.h"
-
-#import "KZViewController.h"
+#import "KZdataLoadViewController.h"
 
 @implementation KZAppDelegate
 
@@ -23,11 +22,16 @@
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
+    
+    KZdataLoadViewController *rootviewcontroller;
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        self.viewController = [[[KZViewController alloc] initWithNibName:@"KZViewController_iPhone" bundle:nil] autorelease];
+        rootviewcontroller = [[[KZdataLoadViewController alloc] initWithNibName:@"KZdataLoadViewController_iPhone" bundle:nil] autorelease];
     } else {
-        self.viewController = [[[KZViewController alloc] initWithNibName:@"KZViewController_iPad" bundle:nil] autorelease];
+        rootviewcontroller = [[[KZdataLoadViewController alloc] initWithNibName:@"KZdataLoadViewController_iPad" bundle:nil] autorelease];
     }
+    
+    self.viewController = [[[UINavigationController alloc] initWithRootViewController:rootviewcontroller] autorelease];
+    
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES;

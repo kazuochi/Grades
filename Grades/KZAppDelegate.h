@@ -8,12 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@class KZViewController;
+@class KZdataLoadViewController;
 
 @interface KZAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) KZViewController *viewController;
+@property (strong, nonatomic) UINavigationController *viewController;
 
 @end
