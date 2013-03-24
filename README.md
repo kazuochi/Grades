@@ -1,7 +1,7 @@
 Grades
 ======
 
-This app request students data to a server and lists students info.
+This app requests students data (JSON) to a server and lists students info.
 
 * MRC
 * Universal Application (iPhone and iPad)
