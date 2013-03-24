@@ -4,6 +4,7 @@ Grades
 This app request students data to a server and lists students info.
 
 * MRC
+* Universal Application (iPhone and iPad)
 * NSURLRequest
 * JSON
 * Multithreading with GCD (JSON request) and Operation objects (Thumbnails download)
